@@ -9,3 +9,8 @@ readline.question(`How big would you like your table to be? (Please enter one nu
   printPrimeMultiplicationsTable(number)
   readline.close()
 })
+
+readline.on("close", function () {
+  console.log("\nSee ya");
+  process.exit(0);
+});
