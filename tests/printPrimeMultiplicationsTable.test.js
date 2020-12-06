@@ -26,4 +26,10 @@ describe('printPrimeMultiplicationTable function', () => {
     const tableString = '|  |  2| 3|\n| 2| 4| 6|\n| 3| 6| 9|'
     expect(console.log.calledWith(tableString)).to.be.true
   })
+
+  it('logs a 4 by 4 table', () => {
+    printPrimeMultiplicationTable(4)
+    const tableString = '|  |  2| 3| 5|\n| 2| 4| 6| 10|\n| 3| 6| 9| 15|\n| 5| 10| 15| 25|'
+    expect(console.log.calledWith(tableString)).to.be.true
+  })
 })
