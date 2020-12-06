@@ -3,6 +3,10 @@ const primeNumbersGenerator = require('../lib/primeNumbersGenerator').primeNumbe
 
 describe('primeNumbersGenerator function', () => {
 
+  it('returns an empty array if 0 entered', () => {
+    expect(primeNumbersGenerator(0)).to.eql([])
+  })
+
   it('returns an array with the first prime number', () => {
     expect(primeNumbersGenerator(1)).to.eql([2])
   })
