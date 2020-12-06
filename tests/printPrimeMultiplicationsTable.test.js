@@ -10,7 +10,6 @@ chai.use(sinonChai);
 describe('printPrimeMultiplicationTable function', () => {
   beforeEach(() => {
     sinon.spy(console, 'log');
-    // primeNumbersGeneratorStub = sinon.stub(primeNumbersGeneratorModule, 'primeNumbersGenerator');
   })
 
   afterEach(function () {
