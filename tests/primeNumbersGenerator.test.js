@@ -1,5 +1,5 @@
 const { expect } = require('chai');
-const primeNumbersGenerator = require('../lib/primeNumbersGenerator');
+const primeNumbersGenerator = require('../lib/primeNumbersGenerator').primeNumbersGenerator;
 
 describe('primeNumbersGenerator function', () => {
 
