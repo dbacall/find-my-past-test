@@ -29,4 +29,5 @@ In your terminal run:
 
 - Make sure tests for printPrimeMultiplicationsTable are actually passing, I can see they are getting what I want but didn't want to spend too much time trying to fix
 - Look into edge cases. Things like, user can only enter a positive integer, user can't enter letters etc.
+- Look further into how to mock return value of primeNumberGenerator, it's my first time doing it with Mocha, and I don't think it's actually working
 
