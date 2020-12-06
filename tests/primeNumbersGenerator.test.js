@@ -11,4 +11,8 @@ describe('primeNumbersGenerator function', () => {
     expect(primeNumbersGenerator(2)).to.eql([2, 3])
   })
 
+  it('returns an array with the first three prime numbers', () => {
+    expect(primeNumbersGenerator(3)).to.eql([2, 3, 5])
+  })
+
 })
