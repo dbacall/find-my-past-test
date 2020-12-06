@@ -5,7 +5,7 @@ const readline = require('readline').createInterface({
   output: process.stdout
 })
 
-readline.question(`How big would you like your table to be? (Please enter one number, format will be number * number)`, (number) => {
+readline.question(`How big would you like your table to be? (Please enter a number bigger than or equal to 1)`, (number) => {
   printPrimeMultiplicationsTable(number)
   readline.close()
 })
