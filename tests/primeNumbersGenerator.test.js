@@ -7,4 +7,8 @@ describe('primeNumbersGenerator function', () => {
     expect(primeNumbersGenerator(1)).to.eql([2])
   })
 
+  it('returns an array with the first two prime numbers', () => {
+    expect(primeNumbersGenerator(2)).to.eql([2, 3])
+  })
+
 })
